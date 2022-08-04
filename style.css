@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    position: relative;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 80%;
+    box-shadow: 0 0  20px black;
+
+
+}
+
+.col{
+    height: 500px;
+    width: 300px;
+    padding: 50px;
+}
+
+.col1{
+    background-color: blueviolet;
+}
+
+
+.col2{
+    background-color: rgb(43, 73, 226);
+}
+
+.col3{
+    background-color: rgb(98, 226, 43);
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 45px;
+}
